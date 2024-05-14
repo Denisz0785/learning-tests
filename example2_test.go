@@ -24,7 +24,7 @@ func TestDownload(t *testing.T) {
 	t.Log("Given the need to test the download function.")
 	{
 		for i, tt := range tests {
-			t.Logf("\tTest %d:\tWhen checking %q for status code %d", i, tt.url, tt.statusCode)
+			t.Logf("\tTest %d:\tWhen checking %q for status codes %d", i, tt.url, tt.statusCode)
 			{
 				resp, err := http.Get(tt.url)
 				if err != nil {
