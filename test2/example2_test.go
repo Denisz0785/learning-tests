@@ -1,4 +1,4 @@
-package example2
+package test2
 
 import (
 	"net/http"
